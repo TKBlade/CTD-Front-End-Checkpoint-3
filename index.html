@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/fav.ico" />
+    <title>DHFlix</title>
+  </head>
+  <body class="home">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-fluid">
+            <img href="./" class="navbar-brand-custom" src="assets/images/logo.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#lancamentos">Lançamentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#filmes">Filmes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#series">Séries</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mais informações
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./about.html">Quem somos</a></li>
+                  <li><a class="dropdown-item" href="./privacy.html">Política de Privacidade</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <a type="button" data-bs-toggle="modal" data-bs-target="#login" class="header-btn"><i class="fa fa-user"></i>Login</a>
+            </form>
+
+            <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Endereço de E-mail</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Nós nunca compartilhamos os seus dados.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Senha</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Manter Conectado</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Login</button>
+                    </form>  
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </nav>
+
+    <div class="banner">
+      <div class="inside-banner left-box">
+      <h1>OS MELHORES FILMES</h1>
+            <p>Sabe aquele filme sensacional, com aquela atriz que você ama? <br>
+              Então, esse mesmo que você não consegue lembrar o nome de jeito nenhum. <br>
+              Sabe a preguiça de ficar pesquisando todos os filmes que essa atriz já fez para encontrar a sinopse do seu filme misterioso? <br>
+              Nem o Google ajuda nessas horas. Mas o que fazer com a vontade de revê-lo? <br>
+            </p>
+            <p>Nós estamos aqui para te ajudar, listamos os melhores filmes para você!<br>
+              Desde os últimos lançamentos aos clássicos independentes, clique e confira!</p>
+            <a href="#filmes"><i class="fa fa-play"></i>Ver mais</a>
+            <a href="#sobre" class="download-btn custom"><i class="fa fa-book-open"></i>Sobre</a>
+          </div>
+    </div>
+
+    <div class="container filmes" id="filmes">
+      <h3>Filmes Populares</h3>
+        <div class="row justify-content-center">
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-popular-1.html">
+                <img src="https://www.themoviedb.org/t/p/w342/ef2ozkE4AiWwRnyfc9s05sEtAIT.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-popular-2.html">
+                <img src="https://comandotorrents.com.br/wp-content/uploads/2021/10/baixar-filme-series-e-animes-comandotorrents.com_.br_.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-popular-3.html">
+                <img src="https://comandotorrents.com.br/wp-content/uploads/2021/10/baixar-filme-series-e-animes-comandotorrents.com_.br_-1.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-popular-4.html">
+                <img src="https://comandotorrents.com.br/wp-content/uploads/2021/09/baixar-filmes-e-series-comandotorrents.com_.br_-1.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-popular-5.html">
+                <img src="https://comandotorrents.com.br/wp-content/uploads/2021/09/baixar-filme-series-e-animes-baixarfilmestorrent1.com_.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-popular-6.html">
+                <img src="https://comandotorrents.com.br/wp-content/uploads/2021/09/gkUpFnh5lRsDDA15u6IYsd08b2p.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container filmes" id="series">
+      <h3>Séries Populares</h3>
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-serie-1.html">
+                <img src="https://comandotorrents.com.br/wp-content/uploads/2021/07/baixar-filme-e-series-filmetorrent.com_.br_-8.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-serie-2.html">
+                <img src="https://image.tmdb.org/t/p/w342/wRbjVBdDo5qHAEOVYoMWpM58FSA.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-serie-3.html">
+                <img src="https://image.tmdb.org/t/p/w342/onamGdLjKolUFwIW7io11IDH0uJ.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-serie-4.html">
+                <img src="https://image.tmdb.org/t/p/w342/dzRU492K7yWwiEqVnjm4CurJmn2.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-serie-5.html">
+                <img src="https://image.tmdb.org/t/p/w342/j29Az78mYXx0EDMNjFiGJBKES8r.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-serie-6.html">
+                <img src="https://1.bp.blogspot.com/-cItQ2ogIyZs/YUxg8o8hnMI/AAAAAAAAGUA/ECGp7092kWEl7WOFllZQ8augfD9bD5KWACLcBGAsYHQ/s0/The%2BGoldbergs%2BS09.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container filmes" id="lancamentos">
+      <h3>Lançamentos</h3>
+        <div class="row">
+          <div class="col-sm-12 col-md-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-lancamento-1.html">
+                <img src="https://comandotorrents.com.br/wp-content/uploads/wordpress-popular-posts/13533-featured-250x370@1.5x.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-lancamento-2.html">
+                <img src="https://comandotorrents.com.br/wp-content/uploads/wordpress-popular-posts/13863-featured-250x370@1.5x.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-lancamento-3.html">
+                <img src="https://comandotorrents.com.br/wp-content/uploads/wordpress-popular-posts/11237-featured-250x370@1.5x.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-lancamento-4.html">
+                <img src="https://comandotorrents.com.br/wp-content/uploads/wordpress-popular-posts/13824-featured-250x370@1.5x.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-lancamento-5.html">
+                <img src="https://comandotorrents.com.br/wp-content/uploads/wordpress-popular-posts/14137-featured-250x370@1.5x.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <div class="card bg-transparent marg">
+              <div class="card bg-transparent text-white">
+                <a href="./pages/page-lancamento-6.html">
+                <img src="https://comandotorrents.com.br/wp-content/uploads/wordpress-popular-posts/15470-featured-250x370@1.5x.jpg" class="card-img" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="sobre">
+      <div class="inside-banner left-box" id="sobre">
+      <h1>Sobre</h1>
+            <p>Como o cinema te inspira?<br>
+
+              Seria óbvio atribuir ao cinema a história da DHFlix, mas seria também adequado e justo. Lá em 2012, que parece ter sido ontem, foi justamente o cinema que despertou a criação do projeto, que, a principio, consistia em assistir um total de DHFlix no período de 1 ano. Quantas histórias cabem ai?<br>
+              
+              Sabe aquela sensação prazerosa de descoberta, quando as entrelinhas se tornam visíveis e mais interessantes, os filmes se tornam obras, os diretores ganham nome, e as fronteiras se diluem? Cada vez mais constante neste sentido, o projeto cresceu consideravelmente.<br>
+              
+              E se tivéssemos que destacar um único ponto, seria a horizontalidade no dialogo que se criou e se mantem até hoje.<br>
+              
+              Se é o cinema o que mais temos de igual, e de diferente, é você, seguidor, cliente e amigo, a força motriz que mantem a TrêsMeiaCinco em constante movimento.<br>
+              
+              A DHFlix quer expandir esse universo e inspirar cinema através da Loja de produtos para cinéfilos, da Fanpage, do Blog de conteúdo e do seu Programa de Incentivo à produção independente brasileira.
+            </p>
+          </div>
+    </div>
+    <footer class="footer-16371">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-9 text-center">
+            <div class="footer-site-logo mb-4">
+              <a href="#">DH Flix</a>
+            </div>
+            <ul class="list-unstyled nav-links mb-5">
+              <li><a href="./">Home</a></li>
+              <li><a href="#lancamentos">Lançamentos</a></li>
+              <li><a href="#filmes">Filmes</a></li>
+              <li><a href="#series">Séries</a></li>
+              <li><a href="#">Politica de Privacidade</a></li>
+              <li><a href="#">Quem somos</a></li>
+            </ul>
+
+            <div class="social mb-4">
+              <h3>Nos acompanhe</h3>
+              <ul class="list-unstyled">
+                <li class="in"><a href="https://www.instagram.com"><span class="icon-instagram"></span></a></li>
+                <li class="fb"><a href="https://www.facebook.com"><span class="icon-facebook"></span></a></li>
+                <li class="tw"><a href="https://www.twitter.com"><span class="icon-twitter"></span></a></li>
+                <li class="pin"><a href="https://www.pinterest.com"><span class="icon-pinterest"></span></a></li>
+                <li class="dr"><a href="https://www.dribbble.com"><span class="icon-dribbble"></span></a></li>
+              </ul>
+            </div>
+
+            <div class="copyright">
+              <p class="mb-0"><small>&copy; DHFlix. Todos os direitos reservados.</small></p>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5005d44b94.js" crossorigin="anonymous"></script>
+
+  </body>
+</html>

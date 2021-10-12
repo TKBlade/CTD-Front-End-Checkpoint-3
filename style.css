@@ -1,0 +1,293 @@
+.navbar-brand-custom {
+
+    width: 80px;
+    margin-right: 30px;
+
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 6;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 6;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 6;
+    }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-success-custom {
+
+    background-color: green;
+
+}
+
+.bt-teste {
+
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(1.1);
+
+}
+
+.header {
+    background-color: green;
+    height: 20px;
+}
+
+.header-btn {
+    text-decoration: none !important;
+    border-radius: 30px;
+    padding: 7px 20px;
+    float: right;
+    color: #fff !important;
+    background: #107afd;
+    font-weight: 600;
+}
+
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('./assets/images/back.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.popular-1 {
+
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://ingresso-a.akamaihd.net/b2b/production/uploads/article/image/55/Infiltrado-Novo-trailer.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.banner {
+    background-image: url("https://www.acervofilmes.com/wp-content/themes/torofilm/public/img/poster.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+.cardb {
+    gap: 20px;
+}
+
+.banner h1 {
+
+    margin-bottom: 40px;
+
+}
+
+.filmes h3 {
+
+    color: #fff;
+
+}
+
+.filmes img {
+
+    cursor: pointer;
+    transition: 1s;
+    object-fit: cover;
+
+}
+
+
+.filmes img:hover{
+    
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.2);
+
+}
+
+.filmes {
+
+    margin-bottom: 100px;
+
+}
+
+.marg {
+    margin: 15px;
+}
+
+.movie-details {
+    margin-left: 15%;
+}
+
+.movie-details p {
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.movie-details h1 {
+    font-size: 45px;
+}
+
+.movie-img {
+
+    height: 500px;
+    box-shadow: -4px 4px 5px 0px #000;
+    margin-top: 15%;
+
+}
+
+.about {
+    color: white;
+    text-decoration: rgb(221, 8, 8);
+    font-size: 40px;
+    padding: 10%;
+}
+
+.about p{
+    gap: 30px;
+    font-weight: 300;
+    padding: 100px;
+}
+
+.privacy {
+    color: white;
+    text-decoration: rgb(221, 8, 8);
+    padding: 20%;
+    font-size: 20px;
+}
+
+.casting img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.btn-style {
+
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(1.1);
+    background: #0e5cbb;
+    text-decoration: none !important;
+    border-radius: 30px;
+    padding: 7px 20px;
+    margin-top: 35px;
+    color: #fff !important;
+    background: #107afd;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.left-box {
+    color: white;
+    padding: 70px;
+}
+
+.left-box a {
+
+    text-decoration: none !important;
+    border-radius: 30px;
+    padding: 7px 20px;
+    margin-top: 35px;
+    color: #fff !important;
+    background: #107afd;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.modal p, h5 {
+
+    color: black;
+
+}
+
+.fa {
+    margin: 0 5px;
+}
+
+.sobre {
+    background-image: url("https://www.acervofilmes.com/wp-content/themes/torofilm/public/img/poster.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  
+  a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a, a:hover {
+      text-decoration: none !important; }
+  
+  .content {
+    height: 70vh; }
+  
+  .footer-16371 {
+    padding: 7rem 0;
+    font-family: "Poppins", sans-serif; }
+    .footer-16371 .footer-site-logo {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 900; }
+      .footer-16371 .footer-site-logo a {
+        color: #4200ff; }
+    .footer-16371 .nav-links {
+      padding: 0;
+      margin: 0; }
+      .footer-16371 .nav-links li {
+        display: inline-block; }
+        .footer-16371 .nav-links li a {
+          padding: 10px;
+          color: #fff; }
+          .footer-16371 .nav-links li a:hover {
+            color: #4200ff; }
+    .footer-16371 .social h3 {
+      font-weight: bold;
+      font-size: 18px;
+      color: #fff; }
+    .footer-16371 .social ul li {
+      display: inline-block; }
+      .footer-16371 .social ul li a {
+        display: inline-block;
+        padding: 10px; }
+      .footer-16371 .social ul li.in a {
+        color: #df588a; }
+      .footer-16371 .social ul li.tw a {
+        color: #15b8ff; }
+      .footer-16371 .social ul li.fb a {
+        color: #3742d0; }
+      .footer-16371 .social ul li.dr a {
+        color: #fa38c1; }
+      .footer-16371 .social ul li.pin a {
+        color: #dd4d5a; }
+    .footer-16371 .copyright {
+      color: #999999; }

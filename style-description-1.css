@@ -1,0 +1,361 @@
+.navbar-brand-custom {
+
+    width: 80px;
+    margin-right: 30px;
+
+}
+
+.popular-1 {
+
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://ingresso-a.akamaihd.net/b2b/production/uploads/article/image/55/Infiltrado-Novo-trailer.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.popular-2 {
+
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://media.jornaldooeste.com.br/2021/09/991caca9-007-sem-tempo-para-morrer-novo-trailer-do-ultimo-filme-de-daniel-craig-como-james-bond.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.popular-3 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://br.web.img2.acsta.net/newsv7/21/10/05/17/03/0175442.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.popular-4 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://vejario.abril.com.br/wp-content/uploads/2021/08/freeguy.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.popular-5 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://br.jetss.com/wp-content/uploads/2021/09/shang-chi-e-a-lenda-dos-dez-aneis-critica.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.popular-6 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://cinemacomrapadura.com.br/imagens/2020/10/20201021-o-homem-nas-trevas-2.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.lancamento-1 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://comandotorrents.com.br/wp-content/uploads/wordpress-popular-posts/13533-featured-250x370@1.5x.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.lancamento-2 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://comandotorrents.com.br/wp-content/uploads/wordpress-popular-posts/13863-featured-250x370@1.5x.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.lancamento-3 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://comandotorrents.com.br/wp-content/uploads/wordpress-popular-posts/11237-featured-250x370@1.5x.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.lancamento-4 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://comandotorrents.com.br/wp-content/uploads/wordpress-popular-posts/13824-featured-250x370@1.5x.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.lancamento-5 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://comandotorrents.com.br/wp-content/uploads/wordpress-popular-posts/14137-featured-250x370@1.5x.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.lancamento-6 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://comandotorrents.com.br/wp-content/uploads/wordpress-popular-posts/15470-featured-250x370@1.5x.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.serie-1 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://comandotorrents.com.br/wp-content/uploads/2021/07/baixar-filme-e-series-filmetorrent.com_.br_-8.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.serie-2 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://image.tmdb.org/t/p/w342/wRbjVBdDo5qHAEOVYoMWpM58FSA.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.serie-3 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://image.tmdb.org/t/p/w342/onamGdLjKolUFwIW7io11IDH0uJ.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.serie-4 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://image.tmdb.org/t/p/w342/dzRU492K7yWwiEqVnjm4CurJmn2.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.serie-5 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://image.tmdb.org/t/p/w342/j29Az78mYXx0EDMNjFiGJBKES8r.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.serie-6 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://1.bp.blogspot.com/-cItQ2ogIyZs/YUxg8o8hnMI/AAAAAAAAGUA/ECGp7092kWEl7WOFllZQ8augfD9bD5KWACLcBGAsYHQ/s0/The%2BGoldbergs%2BS09.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.movie-details {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.movie-details p {
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.movie-details h1 {
+    font-size: 45px;
+}
+
+.left-box {
+    color: white;
+    margin-left: 15px 0;
+    padding: 20px;
+}
+
+.marg {
+  margin: 15px;
+}
+
+.casting img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.left-box a {
+
+  text-decoration: none !important;
+  border-radius: 30px;
+  padding: 7px 20px;
+  margin-top: 35px;
+  color: #fff !important;
+  background: #107afd;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+
+}
+
+.left-box a:hover {
+
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(1.1);
+
+}
+
+.modal p, h5 {
+
+    color: black;
+
+}
+
+.download-btn{
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+.fa {
+    margin: 0 5px;
+}
+
+.movie-img {
+
+    height: 500px;
+    box-shadow: -4px 4px 5px 0px #000;
+    margin-top: 15%;
+
+}
+
+.btn-success-custom {
+
+    background-color: green;
+
+}
+
+.header {
+    background-color: green;
+    height: 20px;
+}
+
+.header-btn {
+    text-decoration: none !important;
+    border-radius: 30px;
+    padding: 7px 20px;
+    float: right;
+    color: #fff !important;
+    background: #107afd;
+    font-weight: 600;
+}
+
+
+.filmes h3 {
+
+    color: #fff;
+
+}
+
+.filmes img {
+
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.filmes img:hover{
+    
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.2);
+
+}
+
+.filmes {
+
+    margin-bottom: 100px;
+
+}
+
+.left-box {
+    color: white;
+    padding: 70px;
+}
+
+.left-box a {
+
+    text-decoration: none !important;
+    border-radius: 30px;
+    padding: 7px 20px;
+    margin-top: 35px;
+    color: #fff !important;
+    background: #107afd;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.fa {
+    margin: 0 5px;
+}
+
+body {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  
+  a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a, a:hover {
+      text-decoration: none !important; }
+  
+  .content {
+    height: 70vh; }
+  
+  .footer-16371 {
+    padding: 7rem 0;
+    font-family: "Poppins", sans-serif; }
+    .footer-16371 .footer-site-logo {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 900; }
+      .footer-16371 .footer-site-logo a {
+        color: #4200ff; }
+    .footer-16371 .nav-links {
+      padding: 0;
+      margin: 0; }
+      .footer-16371 .nav-links li {
+        display: inline-block; }
+        .footer-16371 .nav-links li a {
+          padding: 10px;
+          color: #fff; }
+          .footer-16371 .nav-links li a:hover {
+            color: #4200ff; }
+    .footer-16371 .social h3 {
+      font-weight: bold;
+      font-size: 18px;
+      color: #fff; }
+    .footer-16371 .social ul li {
+      display: inline-block; }
+      .footer-16371 .social ul li a {
+        display: inline-block;
+        padding: 10px; }
+      .footer-16371 .social ul li.in a {
+        color: #df588a; }
+      .footer-16371 .social ul li.tw a {
+        color: #15b8ff; }
+      .footer-16371 .social ul li.fb a {
+        color: #3742d0; }
+      .footer-16371 .social ul li.dr a {
+        color: #fa38c1; }
+      .footer-16371 .social ul li.pin a {
+        color: #dd4d5a; }
+    .footer-16371 .copyright {
+      color: #999999; }
